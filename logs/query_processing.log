@@ -1,0 +1,18 @@
+2025-03-11 23:37:28.232 | INFO     | routes.pdf_route:upload_pdf:17 - Received file: SOW4.pdf
+2025-03-11 23:37:28.244 | INFO     | routes.pdf_route:upload_pdf:24 - File saved successfully at /tmp/SOW4.pdf
+2025-03-11 23:37:35.529 | INFO     | routes.pdf_route:upload_pdf:32 - Extracted text from SOW4.pdf
+2025-03-11 23:37:35.530 | INFO     | routes.pdf_route:upload_pdf:39 - Chunked the extracted text into 7 segments
+2025-03-11 23:37:39.722 | INFO     | routes.pdf_route:upload_pdf:44 - Successfully stored chunks in Qdrant
+2025-03-11 23:37:56.560 | INFO     | routes.query_route:query_rag:73 - Received query: What did are the two companies involved in the contract (Session: 8ba43e4a-1b86-4502-a30f-c79cbc04e307)
+2025-03-11 23:37:56.596 | ERROR    | routes.query_route:query_rag:80 - Failed to retrieve context from Qdrant: get_retrieved_context() missing 1 required positional argument: 'docs'
+2025-03-11 23:38:04.206 | INFO     | routes.query_route:query_rag:73 - Received query: What did are the two companies involved in the contract (Session: e22d531b-58d3-404d-b615-136bc56f31d3)
+2025-03-11 23:38:04.208 | ERROR    | routes.query_route:query_rag:80 - Failed to retrieve context from Qdrant: get_retrieved_context() missing 1 required positional argument: 'docs'
+2025-03-11 23:42:14.786 | INFO     | routes.pdf_route:upload_pdf:17 - Received file: SOW4.pdf
+2025-03-11 23:42:14.867 | INFO     | routes.pdf_route:upload_pdf:24 - File saved successfully at /tmp/SOW4.pdf
+2025-03-11 23:43:21.563 | INFO     | routes.pdf_route:upload_pdf:17 - Received file: SOW4.pdf
+2025-03-11 23:43:21.568 | INFO     | routes.pdf_route:upload_pdf:24 - File saved successfully at /tmp/SOW4.pdf
+2025-03-11 23:43:23.488 | INFO     | routes.pdf_route:upload_pdf:32 - Extracted text from SOW4.pdf
+2025-03-11 23:43:23.489 | INFO     | routes.pdf_route:upload_pdf:39 - Chunked the extracted text into 7 segments
+2025-03-11 23:43:26.243 | INFO     | routes.pdf_route:upload_pdf:44 - Successfully stored chunks in Qdrant
+2025-03-11 23:43:54.810 | INFO     | routes.query_route:query_rag:80 - Received query: What did are the two companies involved in the contract (Session: 18117a85-6f47-4c6f-9724-19f585f95067)
+2025-03-11 23:43:54.810 | ERROR    | routes.query_route:query_rag:88 - Failed to initialize retriever: 'NoneType' object is not iterable
